@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Harry Potter",
+    "author": " J.K.Rowling",
+    "year": 2015,
+    "status": false
+  },
+  {
+    "id": 2,
+    "name": "If He Had Been with Me",
+    "author": " Laura Nowlin",
+    "year": 2019,
+    "status": true
+  },
+  {
+    "id": 3,
+    "name": "The Way I Used to Be",
+    "author": " Amber Smith",
+    "year": 2017,
+    "status": false
+  }
+]
