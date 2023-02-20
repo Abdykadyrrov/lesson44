@@ -7,6 +7,8 @@ public class BooksDataModel {
 
     private List <Book> books = new ArrayList<>();
 
+
+    private Book book;
     private List <Employee> employees = new ArrayList<>();
 
 
@@ -19,6 +21,7 @@ public class BooksDataModel {
         employees.add(new Employee("2","Amantur Chokmorov"," ","If He Had Been with Me "));
         employees.add(new Employee("3","Sagyn Turdubaev"," "," "));
         employees.add(new Employee("4","Adel Ormonova"," The Way I Used to Be","Harry Potter"));
+        this.book = new Book("Harry Potter", "J.K.Rowling", "2015");
     }
 
     public List<Book> getBooks() {
@@ -35,5 +38,12 @@ public class BooksDataModel {
 
     public void setEmployees(List<Employee> employees) {
         this.employees = employees;
+    }
+    public Book getBook() {
+        return book;
+    }
+
+    public void setBook(Book book) {
+        this.book = book;
     }
 }

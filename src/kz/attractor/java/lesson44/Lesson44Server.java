@@ -23,14 +23,9 @@ public class Lesson44Server extends BasicServer {
     }
 
     private void bookHandler(HttpExchange exchange) {
-        renderTemplate(exchange, "book.ftlh", getBookDataModel());
+        renderTemplate(exchange, "book.ftlh", getBooksDataModel());
 
     }
-
-    private BookDataModel getBookDataModel() {
-        return new BookDataModel();
-    }
-
     private void employeeHandler(HttpExchange exchange) {
         renderTemplate(exchange, "employee.ftlh", getBooksDataModel());
     }
