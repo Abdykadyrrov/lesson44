@@ -19,7 +19,7 @@
             <th scope="col">#</th>
             <th scope="col">Employee</th>
             <th scope="col">Now reading
-            <th scope="col">Used book</th>
+            <th scope="col">Read books</th>
         </tr>
         </thead>
         <tbody class="table-group-divider">
@@ -28,8 +28,8 @@
             <tr>
                 <th >${employee.id}</th>
                 <td> ${employee.fullName}</td>
-                <td> ${employee.bookList}</td>
-                <td> ${employee.usedBook}</td>
+                <td> ${employee.currentBook}</td>
+                <td> ${employee.readBook}</td>
 
             </tr>
         </#list>

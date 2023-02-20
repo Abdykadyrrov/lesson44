@@ -4,20 +4,20 @@ public class Employee {
 
     private String id;
     private String fullName;
-    private String bookList;
+    private String currentBook;
 
-    private  String usedBook;
+    private  String readBook;
 
-    public Employee(String id, String fullName, String bookList, String usedBook) {
+    public Employee(String id, String fullName, String currentBook, String readBook) {
         this.id = id;
         this.fullName = fullName;
-        this.bookList = bookList;
-        this.usedBook = usedBook;
+        this.currentBook = currentBook;
+        this.readBook = readBook;
     }
 
-    public Employee(String fullName, String bookList) {
+    public Employee(String fullName, String currentBook) {
         this.fullName = fullName;
-        this.bookList = bookList;
+        this.currentBook = currentBook;
     }
     public String getId() {
         return id;
@@ -34,19 +34,19 @@ public class Employee {
     public void setFullName(String fullName) {
         this.fullName = fullName;
     }
-    public String getBookList() {
-        return bookList;
+    public String getCurrentBook() {
+        return currentBook;
     }
 
-    public void setBookList(String bookList) {
-        this.bookList = bookList;
+    public void setCurrentBook(String currentBook) {
+        this.currentBook = currentBook;
     }
 
-    public String getUsedBook() {
-        return usedBook;
+    public String getReadBook() {
+        return readBook;
     }
 
-    public void setUsedBook(String usedBook) {
-        this.usedBook = usedBook;
+    public void setReadBook(String readBook) {
+        this.readBook = readBook;
     }
 }
