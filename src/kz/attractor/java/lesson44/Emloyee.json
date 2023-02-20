@@ -1,24 +1,32 @@
 [
   {
     "id": 1,
-    "fullName": "Nurislam Abdykadyrov"
+    "fullName": "Nurislam Abdykadyrov",
+    "usedBook": [1],
+    "readBook": [3]
   },
   {
     "id": 2,
-    "fullName": "Asel Kadyrkulova"
-
+    "fullName": "Asel Kadyrkulova",
+    "usedBook": [3],
+    "readBook": [2]
   },
   {
     "id": 3,
-    "fullName": "Amantur Chokmorov"
-
+    "fullName": "Amantur Chokmorov",
+    "usedBook": [ ],
+    "readBook": [2,1]
   },
   {
     "id": 4,
-    "fullName": "Sagyn Turdubaev"
+    "fullName": "Sagyn Turdubaev",
+    "usedBook": [2],
+    "readBook": [1,3]
   },
   {
     "id": 5,
-    "fullName": "Adel Ormonova"
+    "fullName": "Adel Ormonova",
+    "usedBook": [ ],
+    "readBook": [2,3]
   }
 ]

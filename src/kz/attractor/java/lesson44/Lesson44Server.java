@@ -32,7 +32,7 @@ public class Lesson44Server extends BasicServer {
     }
 
     private void employeeHandler(HttpExchange exchange) {
-        renderTemplate(exchange, "employee.html", getBooksDataModel());
+        renderTemplate(exchange, "employee.ftlh", getBooksDataModel());
     }
 
 

@@ -12,9 +12,7 @@
 <body>
 <div class="container">
 
-    <div class="container">
-        <p> </p>
-        <h1>Описание книги:</h1>
+    <h1>Book description:</h1>
         <div class="card" style="width: 18rem;">
             <div class="card-header">
                 Book: ${book.name}

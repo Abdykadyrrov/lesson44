@@ -11,8 +11,8 @@
 </head>
 <body>
 <div class="container">
-
-    <table class="table table-success table-striped">
+    <h3>List of books:</h3>
+    <table class="table table-warning table-group-divider">
         <thead>
         <tr>
             <th scope="col">#</th>
