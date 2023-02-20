@@ -2,31 +2,31 @@
   {
     "id": 1,
     "fullName": "Nurislam Abdykadyrov",
-    "usedBook": [1],
+    "сurrentBook": [1],
     "readBook": [3]
   },
   {
     "id": 2,
     "fullName": "Asel Kadyrkulova",
-    "usedBook": [3],
+    "сurrentBook": [3],
     "readBook": [2]
   },
   {
     "id": 3,
     "fullName": "Amantur Chokmorov",
-    "usedBook": [ ],
+    "сurrentBook": [ ],
     "readBook": [2,1]
   },
   {
     "id": 4,
     "fullName": "Sagyn Turdubaev",
-    "usedBook": [2],
+    "сurrentBook": [2],
     "readBook": [1,3]
   },
   {
     "id": 5,
     "fullName": "Adel Ormonova",
-    "usedBook": [ ],
+    "сurrentBook": [ ],
     "readBook": [2,3]
   }
 ]
