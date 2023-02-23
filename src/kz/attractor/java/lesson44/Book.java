@@ -1,6 +1,8 @@
 package kz.attractor.java.lesson44;
 
 
+import java.util.List;
+
 public class Book {
 
     private String name;
@@ -9,15 +11,25 @@ public class Book {
     private Integer id;
     private boolean status;
     private transient Employee employee;
-    
+
 
     public Book(String name, String author, String year) {
         this.name = name;
         this.author = author;
         this.year = year;
 
+        setEmployee();
     }
-
+    private void setEmployee() {
+        if (status){
+            List<Employee> emp = EmployeeFileService.readFile();
+            for (Employee employee: emp){
+                if(employee.getId().equals(this.id)){
+                    this.employee = employee;
+                }
+            }
+        }
+    }
     public String getName() {
         return name;
     }

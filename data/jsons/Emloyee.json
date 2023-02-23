@@ -3,30 +3,40 @@
     "id": 1,
     "fullName": "Nurislam Abdykadyrov",
     "сurrentBook": [1],
-    "readBook": [3]
+    "readBook": [3],
+    "mail": "nurislam@gmail.com",
+    "password": "nurislam"
   },
   {
     "id": 2,
     "fullName": "Asel Kadyrkulova",
     "сurrentBook": [3],
-    "readBook": [2]
+    "readBook": [2],
+    "mail": "asel@gmail.com",
+    "password": "nurislam"
   },
   {
     "id": 3,
     "fullName": "Amantur Chokmorov",
     "сurrentBook": [ ],
-    "readBook": [2,1]
+    "readBook": [2,1],
+    "mail": "amantur@gmail.com",
+    "password": "nurislam"
   },
   {
     "id": 4,
     "fullName": "Sagyn Turdubaev",
     "сurrentBook": [2],
-    "readBook": [1,3]
+    "readBook": [1,3],
+    "mail": "sagyn@gmail.com",
+    "password": "nurislam"
   },
   {
     "id": 5,
     "fullName": "Adel Ormonova",
     "сurrentBook": [ ],
-    "readBook": [2,3]
+    "readBook": [2,3],
+    "mail": "adel@gmail.com",
+    "password": "nurislam"
   }
 ]

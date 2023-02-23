@@ -26,10 +26,10 @@
 
         <#list employees as employee>
             <tr>
-                <th >${employee.id}</th>
-                <td> ${employee.fullName}</td>
-                <td> ${employee.currentBook}</td>
-                <td> ${employee.readBook}</td>
+                <th >${employee.id!"-a-"}</th>
+                <td> ${employee.fullName!"-a-"}</td>
+                <td> ${employee.currentBook!"-a-"}</td>
+                <td> ${employee.readBook!"-a-"}</td>
 
             </tr>
         </#list>
